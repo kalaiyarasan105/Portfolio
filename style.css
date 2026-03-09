@@ -1,0 +1,164 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+font-size: 36px;
+text-decoration: none;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+.logo{
+color: green;;
+}
+
+.hi{
+    color:white;
+}
+
+.h{
+    color:#22c55e
+}
+
+.about-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:60px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.about-img img{
+width:260px;
+height:260px;
+border-radius:50%;
+border:5px solid #22c55e;
+object-fit:cover;
+}
+
+.about-text{
+max-width:1500px;
+font-size:18px;
+text-align:left;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#22c55e;
+}
+
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero span{
+color:#22c55e;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-top:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#22c55e;
+color:black;
+border-radius:25px;
+cursor:pointer;
+}
+
+
+section{
+padding:80px 100px;
+text-align:center;
+}
+
+
+.grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+width:220px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+background:#334155;
+}
+
+.contact-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:12px;
+border-radius:8px;
+border:1px solid greyccc;
+font-size:26px;
+}
+
+.contact-form button{
+background:linear-gradient(90deg,white,#22c55e);
+color:grey;
+padding:14px;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.project{
+width: 480px;x;
+}
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
